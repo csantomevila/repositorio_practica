@@ -119,8 +119,30 @@ CONTAINER ID   NAME                 CPU %     MEM USAGE / LIMIT     MEM %     NE
 
 10. Cómo fixeches para clonar o repositorio
 
+christian@christian-VirtualBox:~/GIT$ git clone https://github.com/csantomevila/repositorio_practica.git
+Clonando en 'repositorio_practica'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Desempaquetando objetos: 100% (6/6), listo.
+christian@christian-VirtualBox:~/GIT$ 
+
+
     
 12. Cómo engades o arquivo readme2.md
-13. Os pasos a seguir para subir o arquivo que estás editando e o arquivo readme2.md
-14. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
+
+git add README2.md
+
+
+14. Os pasos a seguir para subir o arquivo que estás editando e o arquivo readme2.md
+
+git add README2.md
+git commit README2.md
+
+git push origin main
+
+
+
+16. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
 Entrega a tarefa enviando na resposta a dirección do teu repositorio coas respostas.
