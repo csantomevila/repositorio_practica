@@ -1,11 +1,3 @@
-Pasos Previos
-
-Creacion de Repositorio Publico Nuevo 
-
-
-
-
-
 
 1. Descargar e comprobar que unha imaxe está no teu equipo
 
@@ -132,7 +124,20 @@ christian@christian-VirtualBox:~/GIT$
     
 12. Cómo engades o arquivo readme2.md
 
+git add README2.md
 
-13. Os pasos a seguir para subir o arquivo que estás editando e o arquivo readme2.md
-14. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
+
+14. Os pasos a seguir para subir o arquivo que estás editando e o arquivo readme2.md
+
+git add README2.md
+git commit README2.md
+
+git push origin main
+
+
+
+16. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
 Entrega a tarefa enviando na resposta a dirección do teu repositorio coas respostas.
+
+git fetch
+git diff origin/main
