@@ -146,3 +146,7 @@ git push origin main
 
 16. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
 Entrega a tarefa enviando na resposta a dirección do teu repositorio coas respostas.
+
+git fetch
+git diff origin/main
+
