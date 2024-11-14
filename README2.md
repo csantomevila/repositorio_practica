@@ -1,5 +1,5 @@
 
-###1. Descargar e comprobar que unha imaxe está no teu equipo
+###1. Descargar e comprobar que unha imaxe está no teu equipo###
 
 Descarga de imagenes 
 sudo docker pull "Nombre_imagen"
@@ -33,11 +33,13 @@ docker exec -it u1 /bin/bash
 
 ###4. Comproba a súa ip e fai ping a google.com
 
-COmprobacion de ip 
+Comprobacion de ip 
 
 christian@christian-VirtualBox:~$ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' u1
 172.17.0.3
 christian@christian-VirtualBox:~$ 
+
+
 
 CONexiones externas
 
