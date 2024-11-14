@@ -1,5 +1,5 @@
 
-1. Descargar e comprobar que unha imaxe está no teu equipo
+###1. Descargar e comprobar que unha imaxe está no teu equipo
 
 Descarga de imagenes 
 sudo docker pull "Nombre_imagen"
@@ -8,7 +8,7 @@ comprobacion de imagenes
 docker images
 
 
-2. Crear un contenedor sen nome, queda arrincado?, cómo obtés o nome?
+###2. Crear un contenedor sen nome, queda arrincado?, cómo obtés o nome?
 
 docker run -d "nombre_imagen" / se crea un nombre predefinido por docker pueden comprobarse con el resto de contenedores con 
 
@@ -18,7 +18,7 @@ docker ps -a
 
 
 
-3. Crea un contenedor coo nome 'u1', cómo accedes a el?
+###3. Crea un contenedor coo nome 'u1', cómo accedes a el?
 
 creacion de contenedor
 docker run -d --name u1 ubuntu 
@@ -31,7 +31,7 @@ docker exec -it u1 /bin/bash
 
 
 
-4. Comproba a súa ip e fai ping a google.com
+###4. Comproba a súa ip e fai ping a google.com
 
 COmprobacion de ip 
 
